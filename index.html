@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <script>
+      const target = new URL(
+        window.location.pathname +
+        window.location.search +
+        window.location.hash,
+        "https://terms.wecareu.kr"
+      );
+      window.location.replace(target.href);
+    </script>
+    <meta http-equiv="refresh"
+          content="0;url=https://terms.wecareu.kr">
+    <title>페이지 이동 중</title>
+  </head>
+  <body>
+    <p>새 주소로 이동 중입니다.</p>
+    <a href="https://terms.wecareu.kr">
+      새 이용약관 페이지로 이동
+    </a>
+  </body>
+</html>
